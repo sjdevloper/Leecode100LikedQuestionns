@@ -1,1 +1,5 @@
-some text
+## 1.Two Sum
+>The key to the problem is that there is always only one pair of numbers that will satisfy. 
+> I suppose there is an equation that xa + xb = target.
+> Because I already know the target as long as it maintains a record of all previous values in the list I can compare the current value(xa) to its only pair, if it exists, in the record of all previous values(xb);
+> To keep the record of the previous values and their indices, I have used the map, Commonly known as a dictionary, in another language.
