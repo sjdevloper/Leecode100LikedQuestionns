@@ -3,3 +3,10 @@ a. The key to the problem is that there is always only one pair of numbers that 
 b. I suppose there is an equation that xa + xb = target.
 c. Because I already know the target as long as it maintains a record of all previous values in the list I can compare the current value(xa) to its only pair, if it exists, in the record of all previous values(xb);
 d. To keep the record of the previous values and their indices, I have used the map, Commonly known as a dictionary, in another language.
+
+______________________________________________
+20. Valid Parentheses
+a. Push the right parentheses '),''],' or '}' into the stack each time when encounter left one.
+b. Check if they are matching.
+c. If not, the string is not a valid one.
+d. At last, check if the stack is empty, return true/false.
