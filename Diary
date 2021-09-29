@@ -10,3 +10,18 @@ a. Push the right parentheses '),''],' or '}' into the stack each time when enco
 b. Check if they are matching.
 c. If not, the string is not a valid one.
 d. At last, check if the stack is empty, return true/false.
+
+______________________________________________
+21. Merge two sorted list
+a. Create variable output and initialize it with whichever list has the smaller first element.
+b. Initialize curr = output, store the reference to the last element in output.
+c. Iterate until any of the lists reaches its end.
+d. Compare and return output.
+e. TimeComplexity: O(N+M);SpaceComplexity: O(1);
+
+______________________________________________
+35. Search Insert Position
+a. Create a help function
+b. Doing binary search in the help function
+c. Call function and return
+d. TimeComplexity: O(logn);SpaceComplexity: O(1);
