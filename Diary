@@ -25,3 +25,11 @@ a. Create a help function
 b. Doing binary search in the help function
 c. Call function and return
 d. TimeComplexity: O(logn);SpaceComplexity: O(1);
+
+______________________________________________
+53.  Maximum Subarray
+a. DP programming: Kadanes's Algorithm
+b. Initialize max and max_end;
+c. Iterate the array and add each element to max_end;
+d. if at any point has ngative, resign it to 0;
+e. updating max and return max;
