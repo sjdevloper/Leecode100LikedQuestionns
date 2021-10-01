@@ -34,3 +34,12 @@ c. Iterate the array and add each element to max_end;
 d. if at any point has ngative, resign it to 0;
 e. updating max and return max;
 f. Time complexity: O(n); Space complexity: O(1);
+
+______________________________________________
+70.  Climbing Stairs
+a. DP programming: Kadanes's Algorithm
+b. Initialize max and max_end;
+c. Iterate the array and add each element to max_end;
+d. if at any point has ngative, resign it to 0;
+e. updating max and return max;
+f. Time complexity: O(n); Space complexity: O(1);
